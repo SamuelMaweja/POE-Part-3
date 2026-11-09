@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Basic SEO -->
+
+    <meta name="author" content="Mpiana Samuel Maweja">
+
+    <meta name="description"
+          content="Contact VillaSerenita Italian Restaurant for enquiries, reservations and assistance. Find our contact details, email address, telephone number and restaurant location.">
+
+    <meta name="keywords"
+          content="VillaSerenita contact, Italian restaurant contact, restaurant enquiries, restaurant reservations, restaurant location, contact information">
+
+    <meta name="robots" content="index, follow">
+
+
+    <title>Contact VillaSerenita | Italian Restaurant Contact Information</title>
+
+    <!-- SEO Canonical URL -->
+
+    <link rel="canonical"
+          href="https://www.VillaSerenitaEAT.co.za/contacts.html">
+
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title"
+          content="Contact VillaSerenita Italian Restaurant">
+
+    <meta property="og:description"
+          content="Get in touch with VillaSerenita for restaurant enquiries, reservations and assistance. Find our contact information and location.">
+
+    <meta property="og:url"
+          content="https://www.VillaSerenitaEAT.co.za/contacts.html">
+
+    <meta property="og:image"
+          content="https://www.VillaSerenitaEAT.co.za/Restaurant.jpg">
+
+    <meta property="og:site_name" content="VillaSerenita">
+
+
+    <!-- Leaflet CSS -->
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+
+    <!-- External CSS -->
+
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- Restaurant Structured Data -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "VillaSerenita",
+        "description": "VillaSerenita is an Italian restaurant offering quality service and a welcoming dining experience.",
+        "url": "https://www.VillaSerenitaEAT.co.za/",
+        "telephone": "+27647348955",
+        "email": "VillaSerenitaEat@gmail.com",
+        "servesCuisine": "Italian",
+        "sameAs": [
+            "https://instagram.com/VillaSerenita",
+            "https://tiktok.com/@VillaSerenita"
+        ]
+    }
+    </script>
+
+</head>
+
+<body>
+
+
+    <!-- Website Header -->
+
+    <header class="site-header">
+
+        <h1 class="page-title">
+            Contact VillaSerenita Italian Restaurant
+        </h1>
+
+        <!-- Main Nav links -->
+
+        <nav aria-label="Main navigation">
+
+            <ul class="navigation-list">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="enquiries.html">Help</a>
+                </li>
+
+                <li>
+                    <a href="contacts.html" aria-current="page">
+                        Contact Information
+                    </a>
+                </li>
+
+                <li>
+                    <a href="products.html">Courses</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main Contact Information -->
+
+    <main class="contact-main">
+
+        <h2 class="section-title">
+            Get in Touch with VillaSerenita
+        </h2>
+
+        <p>
+            Do you have questions about our Italian restaurant,
+            menu, reservations or services? Contact VillaSerenita
+            using the details below. We are happy to assist you.
+        </p>
+
+
+        <!-- Contact Details -->
+
+        <section aria-label="Restaurant contact details">
+
+            <h2>Our Contact Information</h2>
+
+            <ul class="contact-list">
+
+                <li class="contact-item">
+
+                    <strong>Telephone:</strong>
+
+                    <a href="tel:+27647348955">
+                        +27 64 734 8955
+                    </a>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <strong>Email:</strong>
+
+                    <a href="mailto:VillaSerenitaEat@gmail.com">
+                        VillaSerenitaEat@gmail.com
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- General Contact Message Form -->
+
+        <section class="contact-form-section">
+
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Have a question or need assistance?
+                Complete the form below and send us a message.
+                We would love to hear from you.
+            </p>
+
+
+            <!-- Contact Message Form -->
+
+            <form id="contactForm" method="POST">
+
+
+                <!-- Full Name -->
+
+                <div class="form-group">
+
+                    <label for="fullName">
+                        Full Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder="Enter your full name"
+                        minlength="3"
+                        maxlength="60"
+                        pattern="[A-Za-zÀ-ÿ '-]{3,60}"
+                        title="Enter a name containing 3 to 60 letters."
+                        required>
+
+                </div>
+
+
+                <!-- Email Address -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@email.com"
+                        maxlength="100"
+                        required>
+
+                </div>
+
+
+                <!-- Phone Number -->
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Phone Number (Optional):
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="+27 64 734 8955"
+                        pattern="[+]?[0-9 ()-]{7,20}"
+                        title="Enter a valid phone number containing 7 to 20 characters.">
+
+                </div>
+
+
+                <!-- Message Subject -->
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Subject:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Enter your message subject"
+                        minlength="3"
+                        maxlength="100"
+                        required>
+
+                </div>
+
+
+                <!-- Full Message -->
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Your Message:
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="8"
+                        minlength="10"
+                        maxlength="5000"
+                        placeholder="Type your full message here..."
+                        required></textarea>
+
+                </div>
+
+
+                <!-- Submit Button -->
+
+                <button type="submit" id="submitButton">
+
+                    Send Message
+
+                </button>
+
+
+                <!-- Form Response -->
+
+                <p id="formResponse"
+                   role="status"
+                   aria-live="polite">
+                </p>
+
+            </form>
+
+        </section>
+
+
+        <!-- Interactive Restaurant Location Map -->
+
+        <section class="location-section">
+
+            <h2>Find VillaSerenita</h2>
+
+            <p>
+                Use our interactive map to explore the location
+                of VillaSerenita Italian Restaurant and plan
+                your visit.
+            </p>
+
+            <div id="map"
+                 role="region"
+                 aria-label="Interactive map showing the location of VillaSerenita Italian Restaurant">
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Website Footer -->
+
+    <footer class="site-footer">
+
+        <section class="social-section">
+
+            <h2 class="footer-title">
+                Follow VillaSerenita
+            </h2>
+
+            <ul class="social-list">
+
+                <li>
+                    <a href="https://instagram.com/VillaSerenita"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Instagram
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://tiktok.com/@VillaSerenita"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        TikTok
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <p>
+            VillaSerenita - Italian Restaurant.
+            Quality service and customer satisfaction.
+        </p>
+
+    </footer>
+
+
+    <!-- Leaflet JavaScript -->
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            defer></script>
+
+
+    <!-- Restaurant Map JavaScript -->
+
+    <script src="js/map.js" defer></script>
+
+
+    <!-- JavaScript Form Validation and Simulated Submission -->
+
+    <script>
+
+        // Form elements
+
+        const contactForm =
+            document.getElementById("contactForm");
+
+        const formResponse =
+            document.getElementById("formResponse");
+
+        const submitButton =
+            document.getElementById("submitButton");
+
+
+        // JavaScript Form Validation
+
+        contactForm.addEventListener("submit", function(event) {
+
+            // Prevent normal form submission
+
+            event.preventDefault();
+
+
+            // Clear previous messages
+
+            formResponse.textContent = "";
+            formResponse.style.color = "";
+
+
+            // Get form values
+
+            const fullName =
+                document.getElementById("fullName").value.trim();
+
+            const email =
+                document.getElementById("email").value.trim();
+
+            const phone =
+                document.getElementById("phone").value.trim();
+
+            const subject =
+                document.getElementById("subject").value.trim();
+
+            const message =
+                document.getElementById("message").value.trim();
+
+
+            // Validate full name
+
+            if (fullName.length < 3 || fullName.length > 60 ||
+                !/^[A-Za-zÀ-ÿ '-]{3,60}$/.test(fullName)) {
+
+                formResponse.textContent =
+                    "Please enter a valid full name.";
+
+                formResponse.style.color = "red";
+
+                return;
+
+            }
+
+
+            // Validate email address
+
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ||
+                email.length > 100) {
+
+                formResponse.textContent =
+                    "Please enter a valid email address.";
+
+                formResponse.style.color = "red";
+
+                return;
+
+            }
+
+
+            // Validate phone number if provided
+
+            if (phone !== "" &&
+                !/^[+]?[0-9 ()-]{7,20}$/.test(phone)) {
+
+                formResponse.textContent =
+                    "Please enter a valid phone number.";
+
+                formResponse.style.color = "red";
+
+                return;
+
+            }
+
+
+            // Validate message subject
+
+            if (subject.length < 3 || subject.length > 100) {
+
+                formResponse.textContent =
+                    "Please enter a subject between 3 and 100 characters.";
+
+                formResponse.style.color = "red";
+
+                return;
+
+            }
+
+
+            // Validate full message
+
+            if (message.length < 10 || message.length > 5000) {
+
+                formResponse.textContent =
+                    "Your message must contain between 10 and 5000 characters.";
+
+                formResponse.style.color = "red";
+
+                return;
+
+            }
+
+
+            // All client-side validation passed
+
+            submitButton.disabled = true;
+
+            submitButton.textContent = "Sending Message...";
+
+
+        
+
+            setTimeout(function() {
+
+
+                // Display success message
+
+                formResponse.textContent =
+                    "Thank you! Your message has been successfully submitted. This is a demonstration and no actual email has been sent.";
+
+                formResponse.style.color = "green";
+
+
+                // Reset the form
+
+                contactForm.reset();
+
+
+                // Enable submit button again
+
+                submitButton.disabled = false;
+
+                submitButton.textContent = "Send Message";
+
+
+            }, 1000);
+
+        });
+
+    </script>
+
+</body>
+</html>
